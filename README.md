@@ -1,7 +1,7 @@
 # SteamAutoLogin
 Auto login script for steam 
 # TODO
-**NEED TO ADD BACK UP STEAM CODES AS TXT FILE NAMED AS steamguardcodes.txt PLACE IT ON DESKTOP
+**NEED TO ADD BACK UP STEAM CODES AS TXT FILE NAMED AS steamguardcodes.txt PLACE IT ON DESKTOP**
 1. Exceptions for Steam_guard
 2. Adding better time.sleep() optimization
 3. Creating different functions for easy access 
