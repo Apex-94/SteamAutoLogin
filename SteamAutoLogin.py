@@ -5,6 +5,7 @@ import time
 import sys
 import json
 """TODO
+1st key is for non steam guard 2nd key is for steam guard
 1.Exceptions for Steam_guard
 1.1 Adding better time.sleep() optimization
 1.2 Creating different functions for easy access 
@@ -76,11 +77,11 @@ else:
     time.sleep(2)
     try:
 
-        x2, y2 = 1068, 588  # Get coordinates of steam guard input
-        steamguardcodes = 'C:\\Users\\User\\Desktop\\steamcodes.txt'
+        x2, y2 = 1063, 576
+        steamguardcodes =r'C:\Users\User\\Desktop\steamcodes.txt'
         with open(steamguardcodes, 'r') as f:
             list = []
-            print("Opening steamguard codes")
+            print("Opening steamguard codes......")
             time.sleep(2)
             for line in f:
                 code = line.split('\n')
@@ -92,4 +93,4 @@ else:
             list.pop()
             print("Logging using steam guard code is compleated")
     except FileNotFoundError:
-        print('Could not find any files with steam guard codes.')
+        print("File not Found")
