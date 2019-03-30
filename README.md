@@ -1,5 +1,7 @@
 # SteamAutoLogin
-Auto login script for steam 
+Auto login script for steam
+
+IF you have multiple accounts , you can use this to switch between your account with ease
 # TODO
 **NEED TO ADD BACK UP STEAM CODES AS TXT FILE NAMED AS steamguardcodes.txt PLACE IT ON DESKTOP**
 1. Exceptions for Steam_guard
