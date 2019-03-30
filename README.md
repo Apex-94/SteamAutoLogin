@@ -1,5 +1,6 @@
 # SteamAutoLogin
 Auto login script for steam
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 IF you have multiple accounts , you can use this to switch between your account with ease
 # TODO
