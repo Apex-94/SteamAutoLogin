@@ -15,6 +15,7 @@ import psutil
 4.Storing Accounts in json format and reading data from it(Encryption if required)
 5.Building an executable file
 """
+flag=True
 for pid in psutil.pids():
     p = psutil.Process(pid)
     if p.name() == "Steam.exe":
@@ -39,10 +40,10 @@ else:
     print('Launching Steam.exe')
     #print(pyautogui.position())
     #pyautogui.click(921,455)
-    #pyautogui.typewrite("apex_94")
+    #pyautogui.typewrite("PUT YOUR INFO HERE")
     time.sleep(1)
-    print("Choose '1' for Account :Apex_94")
-    print("Choose '2' for Account :Apex__94")
+    print("Choose '1' for Account :PUT YOUR INFO HERE")
+    print("Choose '2' for Account :PUT YOUR INFO HERE")
     try:
         input_id=int(input())
     except ValueError:
@@ -62,6 +63,7 @@ else:
             time.sleep(2)
             print("entering username")
             pyautogui.doubleClick(x,y,button='left')
+            pyautogui.click(x,y,button='left')
             pyautogui.typewrite(Loggin_id)
             time.sleep(1)
             print("entering password")
@@ -98,7 +100,7 @@ else:
             try:
 
                 x2, y2 = 1063, 576
-                steamguardcodes =r'C:\Users\User\\Desktop\steamcodes.txt'
+                steamguardcodes =r'C:\Users\User\\Desktop\steamcodes.txt' #PATH TO STEM GUARD CODES
                 with open(steamguardcodes, 'r') as f:
                     list = []
                     print("Opening steamguard codes......")
